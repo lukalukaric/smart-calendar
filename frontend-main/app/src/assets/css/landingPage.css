@@ -1,0 +1,46 @@
+.block {
+    display: flex;
+    width: 90%;
+    height: 725px;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    /*box-shadow: 10px 10px 10px #6997ff;*/
+    box-shadow: -1px -1px 10px #6997ff, 10px 10px 10px #6997ff;
+}
+
+.left {
+    text-align: center;
+    padding-top: 50px;
+    color: #6997ff;
+}
+
+img {
+    width: 90%;
+    height: 90%;
+}
+
+.btn {
+    margin-top: 100px;
+    width: 80px;
+}
+.btn img {
+    width: 2em;
+    height: 2em;
+}
+
+.title {
+    font-size: 65px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.subTitle {
+    font-size: 40px;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}

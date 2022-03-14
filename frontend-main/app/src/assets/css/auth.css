@@ -1,0 +1,223 @@
+/* css for login form*/
+
+.block{
+    width: 1300px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 20%;
+    box-shadow: 5px 5px 5px lightblue;
+}
+/* using in register page and login page */
+.controls{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.controls1{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+}
+
+.controls2{
+    width: 300px;
+    margin-top: 110px;
+    margin-left: 20px;
+    position: fixed;
+}
+
+
+
+/* using in register page and login page */
+.head{
+    margin-left: 20px;
+}
+
+.second_half{
+    /*height: 500px;*/
+    margin-left: 500px;
+    margin-top: -800px;
+}
+
+img{
+    width: 800px;
+    height: 800px;
+}
+
+.first_half{
+    width: 500px;
+    height: 800px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.submit_button{
+    border-radius: 10px !important;
+    height: 40px;
+    width: 300px !important;
+    padding-bottom: 10px !important;
+    text-align: center;
+    background-color: deepskyblue;
+    position: fixed !important;
+    margin: auto;
+
+}
+#loginForm{
+    position: fixed !important;
+}
+.fixed_button{
+    position: fixed !important;
+    width: 300px;
+    height: 100px;
+    margin-top: 670px;
+    margin-left: 20px;
+}
+
+.submit_button:hover{
+    transition:0.5s; 
+    background-color: deepskyblue;
+    color: white;
+    position: fixed;
+}
+
+.checkbox{
+    margin-top: 200px;
+    margin-left: 20px;
+    position: fixed;
+}
+
+.breakPoint::after, .breakPoint::before{
+    content: "";
+    position: absolute;
+    background: lightgray;
+    width: 45%;
+    margin-top: 500px;
+}
+.breakPoint{
+    width: 335px;
+    height: 2px;
+    background-color: lightgray;
+    margin-top: 30px;
+}
+
+.log_face{
+    display: block;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px;
+    background: #4267B2;
+    border-radius: 10px;
+    border: 1px solid #4267B2;
+    padding: 5px;
+    color: white;
+}
+.log_insta{
+    display: block;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+.log_google{
+    display: block;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px;
+    background: #ff0000;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #ff0000;
+    color: white;
+}
+
+.afterSign{
+    margin-left: 60px;
+    margin-top: 350px;
+}
+.afterSign a{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+
+.button_login{
+    margin-top: 300px;
+    margin-left: 20px;
+    position: fixed !important;
+}
+
+
+
+
+
+
+
+/* global */
+.inputs{
+    border-radius: 10px !important;
+}
+
+
+
+
+
+/* register */
+
+
+.gender_select{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.gender_options{
+    width: 100px !important;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: -37px !important;
+}
+
+
+.select_country{
+    margin-left: 20px;
+    width: 300px !important;
+    margin-top: 20px;
+}
+
+.birth_div{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.conf_date{
+    width: 300px !important;
+}
+
+
+
+/* screen changer */
+
+
+@media (max-width:1200px) { 
+
+    .second_half{
+        display: none;
+    }
+    .block{
+        width: 500px;
+    }
+    
+
+} 
+
+
+
+
+

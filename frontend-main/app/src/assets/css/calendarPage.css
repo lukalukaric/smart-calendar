@@ -1,0 +1,9 @@
+tr td {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  @media only screen and (max-width: 600px) {
+    .sidebar {
+      width: 100% !important;
+    }
+  }

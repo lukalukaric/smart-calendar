@@ -1,0 +1,61 @@
+
+.blockAbout{
+    width: 90%;
+    height: 725px;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    /*box-shadow: 10px 10px 10px #6997ff;*/
+    box-shadow: -1px -1px 10px #6997ff, 10px 10px 10px #6997ff;
+    color: #6997ff;
+    text-align: center;
+}
+
+.leftAbout{
+    width: 50%;
+    height: 600px;
+    float: left;
+    padding-top: 50px;
+}
+
+.rightAbout{
+    width: 50%;
+    height: 600px;
+    padding-top: 50px;
+    float: right;
+}
+
+imgAbout{
+    width: 50%;
+    height: 50%;
+}
+
+.btnAbout{
+    margin-top: 100px;
+    width: 80px;
+}
+
+.titleAbout{
+    font-size: 65px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.subTitleAbout{
+    font-size: 40px;
+    padding: 20px;
+}
+p{
+   font-size: 20px;
+   padding: 10px;
+}
+.logo2{
+    padding-top: 30px;
+    height: 200px;
+    width: 200px;
+}
+.logo1{
+    padding-top: 0px;
+    height: 300px;
+    width: 500px;
+}
